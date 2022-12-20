@@ -324,3 +324,44 @@ function satisfySafetyRules(crewStatus,computerStatusCode,shuttleSpeed){
     }
 
 }
+
+
+
+
+// Write a function that takes in a string and prints a message based on the following conditions
+// If the string is "red", print "Red is the color of danger"
+// If the string is "orange", print "Orange is the color of caution"
+// If the string is "yellow", print "Yellow is the color of sunshine"
+//  If the string is "green", print "Green is the color of nature"
+//  If the string is "blue", print "Blue is the color of the sky"
+// If the string is "purple", print "Purple is the color of royalty"
+// If the string is none of the above, print "Invalid color"
+
+
+function colorsAlert(color){
+    switch(color){
+        case "red":
+            console.log("Red is the color of danger");
+            break;
+        case "orange":
+            console.log("Orange is the color of caution");  
+            break;
+        case "yellow":
+            console.log("Yellow is the color of sunshine");    
+            break;
+        case "green":
+            console.log("Green is the color of nature"); 
+            break;
+        case "blue":
+            console.log("Blue is the color of the sky");
+            break;
+        case "purple":
+            console.log("Purple is the color of royalty");
+            break
+        default:
+            console.log("Invalid color");
+    }
+}
+
+colorsAlert("orange");
+colorsAlert("pink");
